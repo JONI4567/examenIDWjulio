@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clasificación Karting Concordia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Registro de Clasificación - Karting Regional Concordia</h1>
+
+  <form id="formulario">
+    <label>Nro Vehículo: <input type="number" id="vehiculo" required></label>
+    <label>Nombre: <input type="text" id="nombre" required></label>
+    <label>Apellido: <input type="text" id="apellido" required></label>
+    <label>Tiempo (miliseg): <input type="number" id="tiempo" required></label>
+    <button type="submit">Registrar Clasificación</button>
+  </form>
+
+  <h2>Grilla de Largada</h2>
+     <table id="tablaClasificaciones">
+       <thead>
+         <tr>
+         <th>Posición</th>
+         <th>Nro Vehículo</th>
+         <th>Nombre</th>
+         <th>Apellido</th>
+         <th>Tiempo (miliseg)</th>
+         </tr>
+       </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
